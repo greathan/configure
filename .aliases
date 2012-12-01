@@ -1,0 +1,27 @@
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ~="cd ~"
+
+alias ll="ls -l"
+alias la="ls -al"
+alias lh="ls -alh"
+alias ld='ll | grep "^d"'
+
+alias flush="dscacheutil -flushcache"
+
+alias sl="subl"
+
+alias nx="sudo nginx"
+alias nxc="sudo vi /usr/local/conf/nginx.conf"
+alias svn+="svn add"
+
+alias q="cd ~/workshop/qzz.com"
+alias p="cd ~/workshop"
+alias intertts="cd ~/workshop/qzz.com/flight_intertts"
+alias flight="cd ~/workshop/qzz.com/flight"
+alias tts="cd ~/workshop/qzz.com/flight_tts"
+
+alias qps="qzz pack && qzz sync"
+alias qs="qzz server[81]"
