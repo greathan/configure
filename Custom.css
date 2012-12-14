@@ -2,13 +2,19 @@ body, h2, td, select, button, input {
 	font-family: Ubuntu, 文泉驿微米黑 !important;
 }
 
-div[class|=monospace],
-/* for view source */
-a[class|=webkit-html-attribute-value],
+[class|=webkit-html], .webkit-line-content {
+	font-family: Monaco !important;
+	
+	font-weight: lighter;
+}
+.webkit-line-number {
+	font-family: Roboto;
+	font-weight: lighter;
+}
 
 /*  chrome dev tools */
 .network-item, .sortable, .network-summary-bar,
-.toolbar-label, .webkit-html-message-line,
+.toolbar-label,
 
 /* google dictionary */
 #cnt span, #cnt li,
