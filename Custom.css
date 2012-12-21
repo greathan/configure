@@ -2,19 +2,11 @@ body, h2, td, select, button, input {
 	font-family: Ubuntu, 文泉驿微米黑 !important;
 }
 
-[class|=webkit-html], .webkit-line-content {
-	font-family: Monaco !important;
-	
-	font-weight: lighter;
-}
-.webkit-line-number {
-	font-family: Roboto;
-	font-weight: lighter;
-}
-
 /*  chrome dev tools */
-.network-item, .sortable, .network-summary-bar,
-.toolbar-label,
+#-webkit-web-inspector .network-item,
+#-webkit-web-inspector .sortable,
+#-webkit-web-inspector .network-summary-bar,
+#-webkit-web-inspector .toolbar-label,
 
 /* google dictionary */
 #cnt span, #cnt li,
@@ -50,15 +42,28 @@ body, h2, td, select, button, input {
 }
 
 /* dev tools */
-.network-item, .network-summary-bar {
+
+.webkit-line-content {
+	font-family: Monaco!important;
+	font-size: 11px;
+}
+.webkit-line-number {
+	font-family: Roboto!important;
+	font-weight: lighter;
+	font-size: 11px;
+}
+#-webkit-web-inspector .webkit-line-content {
+	font-size: 10px;
+}
+#-webkit-web-inspector .network-item,
+#-webkit-web-inspector .network-summary-bar {
 	
 }
-.toolbar-label {
-	font-size: 13px !important;
+#-webkit-web-inspector .toolbar-label {
+	font-size: 12px !important;
 	text-shadow: rgba(255, 255, 255, 0.5) 1px 1px 1px!important;
-}
-th.sortable, th.timeline-column select option  {
-	
+	font-weight: lighter;
+	text-transform: uppercase;
 }
 
 /* select element */
