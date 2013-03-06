@@ -25,4 +25,4 @@ alias flight="cd ~/workshop/qzz.com/flight"
 alias tts="cd ~/workshop/qzz.com/flight_tts"
 
 alias qps="qzz pack && qzz sync"
-alias qs="qzz server[81]"
+alias qs="node /usr/local/Qzz/q/lib/qserver.js -p 8000"
