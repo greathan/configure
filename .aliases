@@ -11,11 +11,11 @@ alias ld='ll | grep "^d"'
 
 alias flush="dscacheutil -flushcache"
 
-alias sl="subl"
+alias sl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias hosts="sl /etc/hosts"
 
 alias nx="sudo nginx"
-alias nxc="sudo vi /usr/local/conf/nginx.conf"
+alias nxc="sl /usr/local/nginx/conf/nginx.conf"
 alias svn+="svn add"
 
 alias q="cd ~/workshop/qzz.com"
