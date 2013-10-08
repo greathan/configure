@@ -16,6 +16,7 @@ alias hosts="sl /etc/hosts"
 
 alias nx="sudo nginx"
 alias nxc="sl /usr/local/nginx/conf/nginx.conf"
+alias nxr="nx -s reoload"
 alias svn+="svn add"
 
 alias q="cd ~/workshop/qzz.com"
