@@ -21,9 +21,8 @@ alias svn+="svn add"
 
 alias q="cd ~/workshop/qzz.com"
 alias p="cd ~/workshop"
-alias intertts="cd ~/workshop/qzz.com/flight_intertts"
-alias flight="cd ~/workshop/qzz.com/flight"
-alias tts="cd ~/workshop/qzz.com/flight_tts"
+alias flt="cd ~/workshop/qzz.com/flight"
+alias tts="cd ~/workshop/qzz.com/flight_intertts"
 
 alias qps="qzz pack && qzz sync && rm -rf dev"
 alias qs="node /usr/local/Qzz/q/lib/qserver.js -p 8000"
