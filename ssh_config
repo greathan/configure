@@ -1,0 +1,52 @@
+
+Host *.qunar.com
+	IdentityFile ~/.ssh/qunar_rsa
+	User wei.han
+Host 192.168.*
+	IdentityFile ~/.ssh/qunar_rsa
+	User wei.han
+
+Host gitlab.corp.qunar.com
+	User wei.han
+	IdentityFile ~/.ssh/id_rsa
+
+
+Host cn0
+	Hostname l-rtools1.ops.cn0.qunar.com
+	User wei.han
+
+Host cn1
+	Hostname l-rtools1.ops.cn1.qunar.com
+	User wei.han
+
+Host cn5
+	Hostname l-rtools1.ops.cn5.qunar.com
+	User wei.han
+Host cn6
+	Hostname l-rtools1.ops.cn6.qunar.com
+	User wei.han
+Host cn8
+	Hostname l-rtools1.ops.cn8.qunar.com
+	User wei.han
+
+Host qzz1
+	Hostname l-qzz1.fe.dev.cn6.qunar.com
+	User wei.han
+	IdentityFile ~/.ssh/qunar_rsa
+
+Host qzz2
+	Hostname l-qzz2.fe.dev.cn6.qunar.com
+	User wei.han
+	IdentityFile ~/.ssh/qunar_rsa
+Host qzz3
+	Hostname l-qzz3.fe.dev.cn6.qunar.com
+	User wei.han
+	IdentityFile ~/.ssh/qunar_rsa
+Host qzz4
+	Hostname l-qzz4.fe.dev.cn6.qunar.com
+	User wei.han
+	IdentityFile ~/.ssh/qunar_rsa
+Host qzz5
+	Hostname l-qzz5.fe.dev.cn6.qunar.com
+	User wei.han
+	IdentityFile ~/.ssh/qunar_rsa

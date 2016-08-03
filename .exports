@@ -2,7 +2,7 @@
 export PATH=$PATH:/usr/local/sbin
 export NODE_PATH=/usr/local/lib/node_modules
 
-export PS1="\[\033[01;33m\]\u@\[\033[01;33m\]mac:\[\033[01;36m\]\w\[\033[01;35m\]$\[\033[00m\]"
+#export PS1="\[\033[01;33m\]\u@\[\033[01;33m\]mac:\[\033[01;36m\]\w\[\033[01;35m\]$\[\033[00m\]"
 export CLICOLOR="xterm-color"
 export LSCOLORS="gxfxcxdxbxegedabagacad"
 export GREP_OPTIONS='--color=auto'

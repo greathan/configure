@@ -1,5 +1,5 @@
 body, h2, td, select, button, input {
-	font-family: Ubuntu, 文泉驿微米黑 !important;
+	font-family: Ubuntu,"Noto Sans CJK SC" !important;
 }
 
 /*  chrome dev tools */
@@ -34,7 +34,7 @@ body, h2, td, select, button, input {
 /* sina weibo */
 .f_pro ul.conlist li em,
 .userinfo .user_atten ul li .num  {
-	font-family: Ubuntu, 文泉驿微米黑 !important;
+	font-family: Ubuntu,"Noto Sans CJK SC" !important;
 }
 
 .goog-menuheader, .goog-menuitem {
